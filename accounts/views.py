@@ -5,6 +5,6 @@ from rest_framework.response import Response
 # Create your views here.
 
 
-class Product(APIView):
+class Register(APIView):
     def get(self, request):
-        return Response("get api test done :)")
+        return Response("test :)")
